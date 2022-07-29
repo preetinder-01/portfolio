@@ -309,6 +309,48 @@ button:hover{
     transform: scale(1.5);
  }
 
+ .experience{
+    margin-top: 2%;
+    /* align-items: center; */
+    
+ }
+ .experience .exp-div{
+    /* display: block; */
+    display: -webkit-box;
+    display:-ms-flexbox;
+    display: block;
+    
+    margin-top: 2rem;
+    
+}
+.experience .exp-div .exp-inner-div
+{
+    background-color: #065f50;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+    margin: 5px;
+    
+    
+ }
+.brand-logo
+{
+    align-items: flex-start;
+}
+.company-name
+{
+    align-items: flex-end;
+}
+ 
+
 @media (max-width: 1200px)
 {
     html{
